@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clase4</title>
+    <link rel="stylesheet" type="text/css" href="StylesClase2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Mi primer formulario</h1>
+    <p>este es una formulario de prueba</p>
+    <form http;//google.com/search>
+      <label for="Name">Nombre</label>
+      <input type="text" id="Name" name="Nombre" placeholder="Ingresa tu Nomre" value="">
+      <br>
+      <Br>
+      <label for="genero">¿Cual es tu genero?</label>
+      <Br>
+      <input type="radio" id="genero" name="gender" value="Hombre">Hombre
+      <br>
+      <input type="radio" id="genero" name="gender" value="Mujer">Mujer
+      <br>
+      <br>
+      <label for="Vehiculo">¿Como te transportas?</label>
+      <Br>
+      <input type="checkbox" id="Vehiculo" name="Vehiculos" value="Bicis">Bici
+      <br>
+      <Br>
+      <input type="checkbox" id="Vehiculo" name="Vehiculos" value="Moto">Moto
+      <br>
+      <Br>
+      <input type="checkbox" id="Vehiculo" name="Vehiculos" value="Auto">Coche
+      <br>
+      <br>
+      <input type="date" name="" id="datetimepicker1">
+      <br>
+      <input type="time" name="" id="datetimepicker1">
+      <Br>
+      <!--Lista-->
+      <select name="Doctores">
+        <option value="" disabled selected>Selecciona</option>
+        <option value="Chapatin">Chapatin</option>
+        <option value="Memo">Guillermo</option>
+        <option value="Alex">Alejandro</option>
+        <option value="Rick">Ricardo</option>
+        <option value="Sand">Sandra</option>
+      </select>
+      <Br>
+      <Br>
+      <input type="Submit" name="Guardar" value="Send">
+    </form>
+  </body>
+</html>

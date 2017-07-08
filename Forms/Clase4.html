@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clase4</title>
+    <link rel="stylesheet" type="text/css" href="StylesClase2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Cita Medica</h1>
+    <p>Ingrsa los datos solicitados</p>
+    <form>
+    </form>
+      <input type="text" name="Nombre" placeholder="Ingresa tu Nomre" value="">
+      <br>
+      <br>
+      <input type="radio" name="gender" value="Hombre">Hombre
+      <br>
+      <input type="radio" name="gender" value="Mujer">Mujer
+      <br>
+      <p>Indica fecha y hora de la cita.</p>
+      <input type="date" name="Calendario" id="datetimepicker1">
+      <br>
+      <input type="time" name="Horario">
+      <br>
+      <input type="checkbox" name="Doctor" value="Juan">
+      <br>
+      <input type="checkbox" name="Doctor" value="Pao">
+      <br>
+      <input type="checkbox" name="Doctor" value="Chucho">
+      <br>
+      <br>
+      <input type="radio" name="Pay" value="Hombre">Tarjeta
+      <br>
+      <input type="radio" name="Pay" value="Mujer">Efectivo
+      <br>
+      <br>
+      <input type="Submit" name="Guardar" value="Send">
+    </form>
+  </body>
+</html>
